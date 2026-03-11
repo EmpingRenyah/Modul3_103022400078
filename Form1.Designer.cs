@@ -101,7 +101,6 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(216, 27);
             textBox2.TabIndex = 7;
-            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // label4
             // 
@@ -120,6 +119,7 @@
             button1.TabIndex = 8;
             button1.Text = "Convert";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
